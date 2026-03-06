@@ -1,0 +1,15 @@
+Início
+<algoritmo media notas aluno>
+var
+caractere nomedoaluno;
+real num1, num2, num3, media;
+leia ("digite o nome do aluno" nomedoaluno);
+leia ("digite a nota da primeira prova" num1);
+leia ("digite a nota da segunda prova" num2);
+leia ("digite a nota da terceira prova" num3);
+
+media <-- num1 + num2 + num3 / 3;
+
+escreva (nomedoaluno "sua media foi:" media);
+
+Fim
