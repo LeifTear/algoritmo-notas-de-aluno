@@ -1,0 +1,16 @@
+Início
+<Inversão de A e B>
+var
+real ax, bx, cx
+
+leia ("insira o valor de A" ax);
+leia ("insira o valor de B" bx);
+
+cx <-- ax;
+ax <-- bx;
+bx <-- cx;
+
+escreva ("o valores de A e B foram trocados sendo que A="ax)
+escreva ("e B ="bx)
+
+Fim
