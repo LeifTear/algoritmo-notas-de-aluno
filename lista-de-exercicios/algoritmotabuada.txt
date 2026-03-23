@@ -1,0 +1,39 @@
+<Algoritmo tabuada>
+
+função tabuada(N, O, T);
+
+var
+inteiro i, resultado;
+
+para i de 1 até T faça;
+
+   se (O = "S") então;
+      resultado <- N + i;
+   senão se (O = "M") então;
+      resultado <- N * i;
+   senão se (O = "D") então;
+      resultado <- N / i;
+   senão se (O = "Sub") então;
+      resultado <- N - i;
+   fimse;
+
+   escreva(N, " ", O, " ", i, " = ", resultado);
+
+fimpara;
+
+fimfunção;
+
+
+Início
+
+var
+N, T: inteiro;
+O: texto;
+
+leia("Digite o valor da tabuada: ", N);
+leia("Digite o operador (S, M, D, Sub): ", O);
+leia("Digite até onde vai: ", T);
+
+tabuada(N, O, T);
+
+Fim

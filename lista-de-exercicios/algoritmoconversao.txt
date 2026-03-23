@@ -1,0 +1,11 @@
+<Algoritmo conversão dolar para real>
+Início
+
+var
+dolar, cotacao, real: real;
+leia("Digite o valor em dolar", + dolar);
+leia("Digite a cotação de dólar para real", + cotacao);
+real <--- dolar * cotacao;
+digite("O valor em real é de:", real);
+
+Fim

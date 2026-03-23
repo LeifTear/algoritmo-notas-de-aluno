@@ -1,0 +1,39 @@
+<Algoritmo desconto carango>
+
+Início
+
+var
+ano, totalAte2010, totalGeral: inteiro;
+valor, desconto, valorFinal: real;
+resposta: texto;
+
+totalAte2010 <- 0;
+totalGeral <- 0;
+
+repita
+
+   leia("Digite o valor do carro: ", valor);
+   leia("Digite o ano do carro: ", ano);
+
+   se (ano <= 2010) então;
+      desconto <- valor * 0.12;
+      totalAte2010 <- totalAte2010 + 1;
+   senão
+      desconto <- valor * 0.07;
+   fimse
+
+   valorFinal <- valor - desconto;
+
+   escreva("Desconto: ", desconto);
+   escreva("Valor final: ", valorFinal);
+
+   totalGeral <- totalGeral + 1;
+
+   leia("Deseja continuar? (S/N): ", resposta);
+
+até (resposta = "N");
+
+escreva("Total de carros até 2010: ", totalAte2010);
+escreva("Total geral: ", totalGeral);
+
+Fim

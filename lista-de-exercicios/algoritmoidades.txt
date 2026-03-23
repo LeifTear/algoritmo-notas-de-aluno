@@ -1,0 +1,18 @@
+<Algoritmo menoridade, maioridade e idoso>
+
+var
+idade, i: inteiro;
+
+para i de 1 até 75 faça;
+   leia("Digite a idade: ", idade);
+
+   se (idade >= 60) então;
+      escreva("Idoso");
+   senão se (idade >= 18) então;
+      escreva("Maior de idade");
+   senão
+      escreva("Menor de idade");
+   fimse;
+fimpara;
+
+Fim

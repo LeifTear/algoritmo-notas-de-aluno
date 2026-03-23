@@ -1,0 +1,27 @@
+<Algoritmo identificação de intervalo>
+
+Início
+
+var
+inteiro A, B, maior;
+
+leia("Digite o primeiro valor: ", A);
+leia("Digite o segundo valor: ", B);
+
+se (A > B) então;
+   maior <- A;
+senão;
+   maior <- B;
+fimse;
+
+escreva("Maior valor: ", maior);
+
+se (maior >= 1 e maior <= 99) então;
+   escreva("Está entre 1 e 99");
+senão se (maior >= 100 e maior <= 199) então;
+   escreva("Está entre 100 e 199");
+senão se (maior >= 200) então;
+   escreva("É maior que 200");
+fimse;
+
+Fim

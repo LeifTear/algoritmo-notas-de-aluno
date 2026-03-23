@@ -1,0 +1,11 @@
+<Algoritmo Rendimento>
+
+Início
+var
+depositado, rendimento, valorFinal: real;
+leia("digite o valor do depósito para o cálculo", + depositado);
+rendimento <--- depositado * 0.007;
+valorFinal <--- depositado + rendimento;
+escreva("valor após um mês: ", valorFinal);
+
+Fim

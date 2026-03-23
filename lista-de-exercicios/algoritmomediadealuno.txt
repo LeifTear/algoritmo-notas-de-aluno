@@ -1,0 +1,28 @@
+<Algoritmo média de aluno>
+
+Início
+
+var
+texto nome;
+real n1, n2, n3, soma, media;
+
+leia("Digite o nome do aluno: ", nome);
+leia("Nota 1: ", n1);
+leia("Nota 2: ", n2);
+leia("Nota 3: ", n3);
+
+soma <- n1 + n2 + n3;
+media <- soma / 3;
+
+escreva("Nome: ", nome);
+escreva("Média: ", media);
+
+se (media >= 7) então;
+   escreva("Aprovado");
+senão se (media <= 5) então;
+   escreva("Reprovado");
+senão;
+   escreva("Recuperação");
+fimse;
+
+Fim

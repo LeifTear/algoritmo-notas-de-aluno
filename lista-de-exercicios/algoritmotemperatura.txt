@@ -1,0 +1,10 @@
+<Algoritmo conversão celsius para fahrenheit>
+Início
+
+var
+celsius, fahrenheit: real;
+leia("Digite a temperatura em celsius para converter", + celsius);
+fahrenheit <--- 9 * celsius + 180 / 5;
+digite("A conversão foi feita, a temperatura em fahrenheit é:", + fahrenheit);
+
+Fim

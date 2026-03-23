@@ -1,0 +1,13 @@
+<Consumo médio de combustível>
+Início
+
+var
+consumo, distancia, consumomedio, milhas: real;
+leia("Digite a distância percorrida em kilômetros por hora", + distancia);
+leia("Digite o total de combustível consumido", + consumo);
+consumomedio <--- distancia / consumo;
+milhas <--- consumomedio * 2.352;
+digite("o consumo em km/l foi de:", consumomedio);
+digite("o consumo em mp/l foi de:", milhas);
+
+Fim
